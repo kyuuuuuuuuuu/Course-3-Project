@@ -1,0 +1,25 @@
+---
+title: "CodeBook"
+author: "Jingwei Li"
+date: "02/05/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## CodeBook for Course Project of Getting and Cleaning Data
+
+1. The raw data for this project is accelerometer data collected from the Samsung Galaxy S smartphone
+
+2. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone on the waist.
+
+3. For each record it is provided:
+    - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+    - Triaxial Angular velocity from the gyroscope. 
+    - A 561-feature vector with time and frequency domain variables. 
+    - Its activity label. 
+    - An identifier of the subject who carried out the experiment.
+
+4. The column names are tidied. You can check the original info about features at features_info.txt
